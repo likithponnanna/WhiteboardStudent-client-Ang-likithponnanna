@@ -1,2 +1,2 @@
 # WhiteboardStudent-client-And-likithponnanna
-Assignment 7 
+Assignment 7 Client
