@@ -1,0 +1,10 @@
+<div class="row border wbdv-margin-bord col-12 m-auto  m-md-2 m-lg-2 m-xl-2 pr-lg-2 pr-xl-2 pr-md-2 mb-2 mt-2" >
+  <form class="row text-center col-12 wbdv-head-wid" [ngSwitch]="Widget.size">
+    <h1 class="m-auto mt-1 mb-1 wbdv-head-wid " *ngSwitchCase="1">{{Widget.text}}</h1>
+     <h2 class="m-auto mt-1 mb-1 wbdv-head-wid" *ngSwitchCase="2">{{Widget.text}}</h2>
+     <h3 class="m-auto mt-1 mb-1" *ngSwitchCase="3">{{Widget.text}}</h3>
+     <h4 class="m-auto mt-1 mb-1" *ngSwitchCase="4">{{Widget.text}}</h4>
+     <h5 class="m-auto mt-1 mb-1" *ngSwitchCase="5">{{Widget.text}}</h5>
+    <h6 class="m-auto mt-1 mb-1" *ngSwitchDefault></h6>
+  </form>
+</div>

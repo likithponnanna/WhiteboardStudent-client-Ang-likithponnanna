@@ -1,0 +1,24 @@
+<div class="list-group" *ngFor="let widget of widgets" [ngSwitch]="widget.type" >
+  <div *ngSwitchCase="'HEADING'" routerLink="/course/{{courseId}}/module/{{moduleId}}/lesson/{{lessonId}}/topic/{{topicId}}/widget">
+    <app-heading-widget [Widget]="widget"></app-heading-widget>
+  </div>
+  <div *ngSwitchCase="'IMAGE'" routerLink="/course/{{courseId}}/module/{{moduleId}}/lesson/{{lessonId}}/topic/{{topicId}}/widget">
+    <app-image-widget [Widget]="widget"></app-image-widget>
+  </div>
+  <div *ngSwitchCase="'PARAGRAPH'" routerLink="/course/{{courseId}}/module/{{moduleId}}/lesson/{{lessonId}}/topic/{{topicId}}/widget">
+    <app-paragraph-widget [Widget]="widget" ></app-paragraph-widget>
+  </div>
+  <div *ngSwitchCase="'LIST'" routerLink="/course/{{courseId}}/module/{{moduleId}}/lesson/{{lessonId}}/topic/{{topicId}}/widget">
+    <app-list-widget [Widget]="widget" ></app-list-widget>
+  </div>
+  <div *ngSwitchCase="'LINK'" routerLink="/course/{{courseId}}/module/{{moduleId}}/lesson/{{lessonId}}/topic/{{topicId}}/widget">
+    <app-link-widget [Widget]="widget" ></app-link-widget>
+  </div>
+
+  <div *ngSwitchDefault>
+    No Widgets
+  </div>
+
+
+
+</div>

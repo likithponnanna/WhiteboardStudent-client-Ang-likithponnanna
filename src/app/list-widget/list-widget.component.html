@@ -1,0 +1,21 @@
+<div class="row border wbdv-margin-bord col-12 m-auto  m-md-2 m-lg-2 m-xl-2 pr-lg-2 pr-xl-2 pr-md-2 mb-2 mt-2" >
+  <form class="row text-center col-12" [ngSwitch]="Widget.listType">
+    <div class="m-auto mt-1 mb-1" *ngSwitchCase="'UNORDERED'">
+        <ul *ngFor="let item of Widget.items.split('\n')">
+
+                   <li>{{item}}
+                   </li>
+
+          </ul>
+    </div>
+
+    <div class="m-auto mt-1 mb-1" *ngSwitchCase="'ORDERED'">
+     <ol *ngFor="let item of Widget.items.split('\n')">
+         <li> {{item}}
+         </li>
+    </ol>
+    </div>
+    <div class="m-auto mt-1 mb-1" *ngSwitchDefault>
+    </div>
+  </form>
+</div>
