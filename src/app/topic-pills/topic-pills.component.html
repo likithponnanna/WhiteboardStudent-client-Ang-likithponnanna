@@ -1,0 +1,12 @@
+
+<div >
+  <ul class="nav nav-pills">
+    <li class="nav-item wbdv-Topic-Bg-Color row ml-2 mt-2 btn-secondary" *ngFor="let topic of topics"
+        routerLink="/course/{{courseId}}/module/{{moduleId}}/lesson/{{lessonId}}/topic/{{topic.id}}">
+        <i class="btn-group nav-link text-white wbdv-fnt-fld-side" [ngClass]="{'wbdv-modAct':( topic.id == topicId)}">{{topic.title}}</i>
+    </li>
+    <li class="nav-item wbdv-Topic-Bg-Color ml-3 mt-2">
+    </li>
+  </ul>
+  <br/>
+</div>

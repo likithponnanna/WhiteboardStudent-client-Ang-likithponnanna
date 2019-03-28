@@ -1,0 +1,32 @@
+<script src="../app.routing.ts"></script>
+<div class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand col-4" routerLink="/course"> <i id="CrossFld" class="fa fa-times"></i>Course Navigator</a>
+    <div class="text-center m-1 text-white text-light font-italic "><b class="font-weight-bolder">{{courseName}}</b></div>
+</div>
+
+<div id="mainCourseEdFld" className="container-fluid h-100 position-absolute">
+
+    <div  class="row justify-content-center h-100 ">
+        <div id="customrowFld" class="col-4 col-xs-6   bg-dark h-100 ">
+            <br/>
+            <app-module-list></app-module-list>
+        </div>
+
+
+        <div class="col-8 m-0 p-0">
+            <div class="bg-dark wbdv-block-test">
+            <app-lesson-tabs [courseName]=courseName [parentLesId]="lessonId"  ></app-lesson-tabs>
+            </div>
+            <br/>
+            <br/>
+            <div class="bg-light wbdv-this-scroll-test align-content-center m-2  ">
+          <app-topic-pills [parentTopicId]="topicId"></app-topic-pills>
+
+
+          <app-widget-list></app-widget-list>
+            </div>
+        </div>
+    </div>
+</div>
+
+

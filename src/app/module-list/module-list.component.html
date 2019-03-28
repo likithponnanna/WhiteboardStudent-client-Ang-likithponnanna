@@ -1,0 +1,12 @@
+<div class="col-12">
+    <ul class="list-group nav  nav-pills p-2 col-12">
+        <li *ngFor="let module of modules" class="mb-1 mt-1">
+            <div [ngClass]="{'wbdv-modAct': module.id == moduleId}"
+                 class="btn-group nav-link col-12 btn-secondary  text-center "
+                 routerLink="/course/{{courseId}}/module/{{module.id}}">
+                <i class="text-light wbdv-fnt-fld-side col-12 m-2 ">{{module.title}}</i>
+            </div>
+        </li>
+
+    </ul>
+</div>

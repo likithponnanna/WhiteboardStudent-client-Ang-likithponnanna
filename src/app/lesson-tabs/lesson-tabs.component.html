@@ -1,0 +1,10 @@
+<ul class="row nav  nav-pills ml-2 pb-2" >
+      <li *ngFor="let lesson of lessons" >
+          <div  [ngClass]="{'wbdv-modAct': lesson.id == lessonId}" class="btn-group nav-link btn-secondary  wbdv-fnt-fld-side  mr-2 text-white mt-1"
+             routerLink="/course/{{courseId}}/module/{{moduleId}}/lesson/{{lesson.id}}">
+              {{lesson.title}}</div>
+      </li>
+</ul>
+
+
+

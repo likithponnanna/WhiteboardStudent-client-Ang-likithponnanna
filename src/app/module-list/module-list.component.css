@@ -1,0 +1,347 @@
+html, body{
+    height:  100%;
+    width: auto !important;
+    min-width: 250px;
+
+
+
+
+}
+.wbdv-height-row-sqave{
+    height: 20px;
+}
+.wbdv-align-text{
+    font-size:4vw;
+}
+div.col-4.bg-dark{
+    column-fill: inherit;
+    height: 100%;
+}
+
+.container-fluid{
+
+}
+
+.container {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#mainCourseEdFld{
+    min-width: 250px;
+}
+
+.fa-toggle-on{
+    color: #0a0406;
+}
+div.row{
+    height: 100%;
+    width: 100%;
+
+}
+.row{
+    height: 100%;
+
+}
+
+#CrossFld{
+    margin-right: 4px;
+    padding: 4px;
+    color: white;
+}
+
+#TopPlusFld{
+    color: #FFFFFF;
+    padding: auto;
+    align-self: center;
+    align-content: center;
+    margin-top: 0.6em;
+    margin: auto;
+
+
+}
+
+
+.wbdv-Cust-Bord{
+    border: #383c3f;
+    background: #0a0406;
+    border-radius: 5px;
+}
+
+#DarkBgFld{
+    background: #0a0406;
+    height: 100%;
+
+}
+
+.wbdv-Full{
+    overflow: hidden;
+}
+
+.wbdv-SideCol{
+    color: #FFFFFF;
+}
+
+div#DarkBgFld.col-2.bg-dark{
+    background: #0a0406;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+}
+
+#ActFld{
+    background: #4790e3
+}
+
+#TopicPlusFld{
+    color: #FFFFFF;
+}
+
+.wbdv-Topic-Bg-Color{
+    background: #7a7a7a;
+    margin-right: 0.5em;
+    color: #FFFFFF;
+}
+
+.wbdv-Topic-Bg-Color:hover{
+    background: #383c3f;
+}
+
+.wbdv-Topic-Bg-Color:active{
+    background: #383c3f;
+}
+
+.wbdv-modAct{
+    background: #0d47a1;
+    color: #0d47a1;
+}
+
+.wbdv-modAct:active{
+    background: #0b2e13;
+    color: #0b2e13;
+}
+
+
+.wbdv-lesson-tabs{
+    background: #262627;
+    margin-left: 4px;
+}
+
+
+
+.wbdv-lesson-tabs:hover{
+    background: #0a0406;
+}
+
+@media (max-width: 200px) {
+    .wbdv-lesson-tabs{
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
+
+.wbdv-module-buttons{
+    border-style: outset;
+    border-radius: 20%;
+
+}
+.wbdv-module-buttons:hover{
+    background: #0d47a1;
+    background-color: #0d47a1;
+    color: #0d47a1;
+
+}
+
+.wbdv-module-buttons:active{
+    background: #0d47a1;
+    background-color: #0d47a1;
+    color: #0d47a1;
+
+}
+
+.wbdv-module-buttons:active{
+    background: #0d47a1;
+    background-color: #0d47a1;
+    color: #0d47a1;
+}
+
+
+
+#activeBgTopic{
+    background: #444444;
+}
+
+.wbdv-x-pad{
+    margin-left: 1em;
+
+}
+
+.wbdv-module-X{
+    color: #FFFFFF;
+    margin-top: 1em;
+    overflow: hidden;
+}
+
+.wbdv-btn{
+    margin-left: 1em;
+    margin-right: 0;
+}
+
+.wbdv-margin-bord{
+    border: #383c3f;
+
+    border-width: 5px;
+    margin: 1em;
+    padding: 1em;
+}
+
+/* This was taken W3 Schools (Providing reference as asked by professor*/
+.switch {
+    /*    position: relative;*/
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    /*  position: absolute;*/
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    /* position: absolute;*/
+    content: "";
+    height: 18px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+
+#UpMarginFld{
+    margin-top: 1em;
+}
+
+#customrowFld {
+    height: 100%;
+    padding-bottom: 1000%;
+
+
+    overflow-y: hidden;
+}
+
+
+@media (max-width: 600px) {
+    #DarkBgFld{
+        padding: 0;
+        margin: 0;
+    }
+    .wbdv-fnt-fld-side{
+        font-size: 10px;
+    }
+
+    div.btn-group.nav-link.active{
+        padding: 0;
+        margin: 0;
+    }
+    .wbdv-remove-lef-right-pm{
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+}
+
+
+.wbdv-modulelist-button-fa{
+    color: white;
+}
+
+
+
+.fa-check{
+    color: green;
+}
+
+.wbdv-font{
+    font-size: 2vw;
+}
+
+
+.wbdv-btn-widget{
+    font-size: 1vw;
+}
+
+.wbdv-this-scroll-test{
+    overflow-y: scroll;
+
+}
+.wbdv-active{
+    background: #0d47a1;
+    color: #0d47a1;
+}
+
+.wbdv-lesson-active{
+    background: #0a0406;
+}
+
+.wbdv-topic-active{
+    background: #383c3f;
+}
+
+.fa-sign-out{
+    color: white;
+}
+
+.fa-user{
+    color: white;
+}
+
