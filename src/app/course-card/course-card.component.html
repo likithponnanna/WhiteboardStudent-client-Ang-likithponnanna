@@ -1,0 +1,25 @@
+
+
+<div>
+  <app-course-title-head></app-course-title-head>
+  <div class="card-deck row col-12">
+
+      <div class="card  container-fluid wbdv-bg-white " *ngFor="let course of courses"
+           id="wbdvBgWhileFld"
+           class="col-xl-2  col-lg-2 col-md-4 col-sm-12">
+        <img class="card-img-top" alt="Broken Img"
+             src="https://picsum.photos/g/200/225"/>
+        <div class="card-body" id="testcardbgFld">
+          <h5 class="card-title overflow-hidden wbdv-text-overflow"><i class="fa fa-file-text my-float mr-2 overflow-hidden -ellipsis-h wbdv-text-overflow"></i>{{course.title}}</h5>
+          <p class="card-text">Modified Date 04/04/2019</p>
+          <div class="btn-group btn-block">
+            <a class="btn btn-primary" routerLink="/course/{{course.id}}">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+</div>

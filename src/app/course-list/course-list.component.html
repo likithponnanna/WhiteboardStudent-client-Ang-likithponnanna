@@ -1,0 +1,29 @@
+<div>
+    <app-course-title-head></app-course-title-head>
+    <div class="row">
+              <div class="col-12 col-sm-12 col-xs-12 " *ngFor="let course of courses">
+                  <div class="row wbdv-center-Cont" id="centerContFld" >
+                                        <div class="col-6 pl-4 overflow-hidden wbdv-text-overflow">
+                                          <i class="fa fa-file-text my-float mr-2 "></i>
+                                            <b class="overflow-hidden wbdv-text-overflow"> {{course.title}}</b>
+                                        </div>
+                                        <div class="col-2 d-none d-sm-block d-md-block">
+                                            me
+                                        </div>
+                                        <div class="col-1 ">
+
+                                        </div>
+
+                                        <div class="col-2 col-sm-2 m-1 p-1 float-right mr-0 pr-0" >
+                                            <button class="btn btn-primary " routerLink="/course/{{course.id}}">
+                                              View Details <i class="fa fa-eye my-float mr-2 ml-2 "></i>
+                                            </button>
+                                        </div>
+
+                  </div>
+
+              </div>
+
+
+    </div>
+</div>

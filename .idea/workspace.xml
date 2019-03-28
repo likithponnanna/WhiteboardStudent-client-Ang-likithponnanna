@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab9fff99-4206-4610-9f2f-bba4bf4fb872" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,6 +33,17 @@
             <path>
               <item name="WhiteboardStudent-client-Ang-likithponnanna" type="b2602c69:ProjectViewProjectNode" />
               <item name="WhiteboardStudent-client-Ang-likithponnanna" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WhiteboardStudent-client-Ang-likithponnanna" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WhiteboardStudent-client-Ang-likithponnanna" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WhiteboardStudent-client-Ang-likithponnanna" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WhiteboardStudent-client-Ang-likithponnanna" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -69,12 +80,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554492710983</updated>
-      <workItem from="1554492712208" duration="476000" />
+      <workItem from="1554492712208" duration="920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="476000" />
+    <option name="totallyTimeSpent" value="920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />

@@ -1,0 +1,44 @@
+<div class="container-fluid">
+  <div class="navbar navbar-expand-lg navbar-light wbdv-bg-blue justify-content-between ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="hidden-sm-down" id="wbdvCourseHid">
+      <a class="navbar-brand form-inline d-sm-block d-xs-block d-xs-block col-md-0 " id="wbdvNav"
+         href="#">Course Manager</a>
+    </div>
+
+
+
+    <span id = "lineId" > </span>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    </div>
+    <div class="btn-group float-right">
+      <i   class="fa fa-user ml-2 fa-2x text-white mr-2 wbdv-status-icons-clickable" (click)="gotoProfile()"></i>
+      <i  class="fa fa-sign-out ml-2 fa-2x text-white mr-2 wbdv-status-icons-clickable" (click)="logout()"></i>
+    </div>
+  </div>
+
+  <div class="row" id="topRow">
+    <div class="col-6 pl-5">
+      <b>Recent Documents</b>
+    </div>
+    <div class="col-2 d-none d-sm-block">
+      <b>Owned by me<i class="fa fa-caret-down my-float mr-2 ml-2"></i></b>
+    </div>
+    <div class="col-2 d-none d-sm-block">
+      <b></b>
+    </div>
+    <div class="col-2 ">
+       <i class="wbdv-cl-link fa fa-th my-float mr-2 " (click)="gotoCourseGrid()"></i>
+      <i class="wbdv-cl-link fa fa-list-ul my-float mr-2 " (click)="gotoCourseList()"></i>
+      <i class="fa fa-sort-alpha-asc my-float mr-2"></i>
+
+    </div>
+  </div>
+  <hr id = "lineIdFld" />
+</div>
