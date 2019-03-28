@@ -1,8 +1,8 @@
-let LOGIN_API_URL =  'https://desolate-ocean-86338.herokuapp.com/api/login';
-let UPDATE_API_URL = 'https://desolate-ocean-86338.herokuapp.com/api/update/';
-let REGISTER_API_URL = 'https://desolate-ocean-86338.herokuapp.com/api/register';
-let API_URL = 'https://desolate-ocean-86338.herokuapp.com/api/';
-let COURSE_API_URL= 'https://desolate-ocean-86338.herokuapp.com/api/courses/';
+let LOGIN_API_URL =  'https://aqueous-reef-72349.herokuapp.com/api/login';
+let UPDATE_API_URL = 'https://aqueous-reef-72349.herokuapp.com/api/update/';
+let REGISTER_API_URL = 'https://aqueous-reef-72349.herokuapp.com/api/register';
+let API_URL = 'https://aqueous-reef-72349.herokuapp.com/api/';
+let COURSE_API_URL= 'https://aqueous-reef-72349.herokuapp.com/api/courses/';
 export class UserService {
 
     getProfile =() =>

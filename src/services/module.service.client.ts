@@ -1,4 +1,4 @@
-let API_URL = 'https://desolate-ocean-86338.herokuapp.com/api/';
+let API_URL = 'https://aqueous-reef-72349.herokuapp.com/api/';
 export class ModuleService {
 
     findAllModules = (courseId) =>
